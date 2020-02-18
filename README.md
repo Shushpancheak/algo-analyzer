@@ -1,5 +1,5 @@
-# @PROJECT_NAME@
-@PROJECT_DESCRIPTION@
+# Algorithms Analyzer
+A program that analyzes number of operations of various algoritms.
 
 ## Build
 ```shell
@@ -8,17 +8,7 @@ cmake .. # "-UBUILD_TESTS -DBUILD_TESTS=ON" to build tests, "-ULIBRARY_TYPE -DLI
 make
 ```
 
-## How to use THE LIBRARY
-Download the repository and place it into your project directory. In your project's CMakeLists.txt file, insert the following lines:
-```cmake
-...
-add_subdirectory(@PROJECT_NAME@)
-...
-target_link_libraries(${PROJECT_NAME} @PROJECT_NAME@)
-...
-```
-
-## How to use THE EXECUTABLE
+## How to use
 ```shell
 cd build
 ./@PROJECT_NAME@
