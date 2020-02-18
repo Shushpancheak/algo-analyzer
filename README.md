@@ -11,7 +11,7 @@ make
 ## How to use
 ```shell
 cd build
-./@PROJECT_NAME@
+./algo-analyzer
 ```
 
 ## Build documentation
