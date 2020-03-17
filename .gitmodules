@@ -1,0 +1,3 @@
+[submodule "submodules/fake-int"]
+	path = submodules/fake-int
+	url = https://github.com/Shushpancheak/fake-int.git
